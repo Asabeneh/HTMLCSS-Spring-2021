@@ -1,0 +1,127 @@
+/* universal selector */
+
+* {
+margin:0;
+}
+
+body {
+    font-family:Raleway;
+    font-weight: 400;
+
+}
+
+/* color can be named, 144 */
+/* rgb, hexa */
+header, footer {
+    color:rgb(245, 250, 245);
+    padding:25px;
+    background: #7645ba;
+
+}
+#title {
+    color: #a1ee11;
+    text-align: center;
+}
+
+
+section {
+    padding:50px;
+    margin:20px;
+}
+
+
+article {
+    background-color: rgb(125, 125, 200);
+    color:white;
+    font-size:18px;
+    padding:20px;
+    line-height: 150%;
+    border-radius:5px;
+}
+.box{
+    display: inline-block;
+    width:250px;
+    height:250px;
+    margin-bottom:5px;
+    font-size:90px;
+    text-align: center;
+    line-height: 250px;
+    border-radius: 50%
+
+}
+#box-1{
+    background:rgb(141, 245, 141);
+}
+#box-2{
+    background:rgb(236, 236, 107);
+}
+#box-3{
+  background:rgb(236, 128, 128);
+}
+
+#menu {
+    margin:20px;
+    padding:10px;
+    background-color: rgba(73, 67, 67, 0.1);
+
+}
+
+#menu li {
+ 
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#menu li a {
+    color:white;
+    text-decoration: none;;
+}
+
+footer {
+
+}
+
+.social-links {
+    text-align: center;;
+}
+
+i {
+    font-size:32px;
+    margin:10px;
+}
+
+.footer-wrapper{
+    text-align: center;;
+}
+/* #down{
+    float:right;
+
+} */
+
+
+/* 
+Form css
+*/
+
+.form-group {
+    margin:5px 0px;
+}
+.form-group label, .form-group input{
+    display:block;
+    margin:3px;
+}
+
+.form-group input{
+    width:75%;
+    padding:5px;
+    border-radius:3px;
+    border:2px solid rgba(128, 0, 128, 0.35);
+   
+}
+.form-group input:hover{
+    border:2px solid rgba(128, 0, 128,1);
+}
+.form-group input::placeholder {
+    color:rgb(211, 203, 203);
+}
+

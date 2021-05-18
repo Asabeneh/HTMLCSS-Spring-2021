@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacts</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aldrich&family=Francois+One&family=Inconsolata:wght@300;400;600;900&family=Karla:wght@300;400;500;600;800&family=Lato:wght@300;400;900&family=Lora:wght@400;500;600;700&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@200;300;400;500;600;700;900&family=Nunito:wght@200;300;400;600;700;900&family=Open+Sans:wght@400;600;700;800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;900&family=Proza+Libre:wght@400;500;600;700;800&family=Raleway:wght@200;300;400;600;900&family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:wght@200;400;500;600;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div id='top'>
+                <h1 id="title">Web Development</h1>
+                <ul id='menu'>
+                    <li><a href='./index.html'>Home</a></li>
+                    <li><a href='./about.html'>About</a></li>
+                    <li><a href='./projects.html'>Projects<a></li>
+                    <li><a href='./contacts.html'>Contacts<a></li>
+                </ul>
+                <a href="#down">Down</a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h1>Contact Us</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+
+                        <input id='firstname' type="text" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id='lastname' placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="color">Favorite Color</label>
+                        <input type="color" id='color'>
+                    </div>
+                    <div class="form-group">
+
+                        <label for="dateofbirth">Date of Birth</label>
+                        <input type="date" id="dateofbirth" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+
+                        <input type="email" id='email' placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="for">Password</label>
+                        <input id='password' type="password">
+
+                    </div>
+
+                    <div class='gender'>
+                        <div>
+                            <input name='gender' id='female' type="radio" />
+                            <label for="female">Female</label>
+                        </div>
+                        <div>
+                            <input name='gender' id='male' type="radio" />
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+
+                            <input name='gender' id='other' type="radio" />
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Your skills</p>
+                        <div>
+                            <input id='html' type='checkbox' /> <label for='html'>HTML</label>
+                        </div>
+                        <div>
+                            <input id='css' type='checkbox' /> <label for='css'>CSS</label>
+                        </div>
+                        <div>
+                            <input id='js' type='checkbox' /> <label for='js'>JavaScript</label>
+                        </div>
+                        <div>
+                            <input id='react' type='checkbox' /> <label for='react'>React</label>
+                        </div>
+                        <div>
+                            <p>Select Country</p>
+                            <select name="country" id="country">
+                                <option value="">-- select country ---</option>
+                                <option value="Finland">Finland</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Norway">Norway</option>
+                                <option value="Denmark">Denmark</option>
+                                <option value="Estonia">Estonia</option>
+                                <option value="Russia">Russia</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <p>Write your motivation</p>
+                            <textarea rows='10' cols='60'>Write your motivation here ...</textarea>
+                        </div>
+
+                        <div>
+                            <input type="file">
+                        </div>
+
+                        <div>
+                            <input type="submit" value='Submit' />
+                        </div>
+                      
+
+                   
+
+                </form>
+
+
+
+
+            </section>
+
+
+        </main>
+
+        <footer>
+            <p>Copyright 2021 by Asabeneh Yetayeh</p>
+            <div>
+                <a href='https://github.com/Asabeneh' target="_blank">GitHub</a>
+                <a href='https://www.linkedin.com/in/asabeneh/' target="_blank">LinkedIn</a>
+                <a href='https://twitter.com/Asabeneh' target="_blank">Twitter</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
