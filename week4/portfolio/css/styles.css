@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    box-sizing:border-box;
+}
+html {
+    min-height: 100vh;
+    position:relative;
+    overflow-x:hidden;
+}
+
+body {
+    min-height: 100vh;
+}
+ul li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    color:white;
+}
+
+main{
+    padding:50px;
+}
+header, footer {
+    text-align: center;
+    background-color: rgb(109, 27, 218);
+    color:white;
+    padding:50px;
+}
+footer {
+    width:100%;
+    position:absolute;
+    bottom: 0; 
+}
