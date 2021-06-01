@@ -1,0 +1,174 @@
+* {
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+html{
+ min-height: 100%;
+ position: relative;
+}
+body {
+    min-height: 100%;
+    line-height: 160%;
+    background-color: antiquewhite;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+header {
+    top:0;
+    z-index:100;
+    position: fixed;
+    width: 100%;
+   
+}
+header,footer {
+    background-color: blueviolet;
+    color:white;
+    padding:30px;
+    text-align: center;
+    
+}
+ul {
+    margin:30px auto;
+    background-color: rgba(19, 18, 19, 0.1);
+    padding:10px;
+}
+ul li {
+    display: inline-block;
+    margin:3px 10px;
+
+}
+
+ul li a {
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+main {
+    margin: 230px 100px 250px 100px;
+ 
+}
+section {
+    margin:20px auto;
+}
+h1{
+    margin:5px auto;
+}
+
+
+
+        .container {
+            position: relative;
+            background-color: aqua;
+            width:100%;
+            height:650px;
+            
+        }
+        .box{
+            width:300px;
+            height:300px;
+            display: inline-block;
+            font-size:120px;
+            text-align: center;
+            line-height: 300px;
+            color:white;
+            position:absolute;
+            border-radius:15px;
+        
+        }
+       .box-1{
+            background-color: blue;
+            left:10px;
+            top: 10px;
+        }
+        .box-2{
+            background-color: purple;
+            right:10px;
+            top:10px;
+        }
+        .box-3{
+            background-color: yellow;
+            left:10px;
+            bottom:10px;
+        }
+        .box-4{
+            background-color: green;
+            right:10px;
+            bottom:10px;
+        } 
+        .web-tech{
+            width:200px;
+            text-align: left;
+            height:200px;
+            line-height: 200px;
+            font-size:32px;
+            background-color: gray;
+            position: absolute;
+            padding:10px;
+        }
+        .box-html {
+           background-color: rgb(245, 104, 39); 
+           top:10px;
+           z-index:3
+
+        }
+        .box-css{
+            background-color: rgb(82, 82, 226);;
+            left:100px;
+            top:20px;
+            z-index:4
+        }
+        .box-js{
+            left:200px;
+            background-color:rgb(238, 208, 39);
+            top:30px;
+            z-index:10;
+        }
+        .techs{
+            position: absolute;
+            text-align: center;
+            width:250px;
+            height:250px;
+            top:200px;
+            left:600px;
+
+        }
+
+        .social-links {
+            text-align: center;;
+        }
+        
+        i {
+            font-size:48px;
+            margin:10px;
+        }
+        
+        .footer-wrapper{
+            text-align: center;;
+        }
+        .fa-github-square {
+            color:#333;
+        }
+        .fa-linkedin{
+            color:#0077b5;
+        }
+        .fa-twitter-square{
+            color:#1da1f2
+        }
+footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+
+        /*
+        so far we covered
+        static
+        relative
+        absolute
+        fixed
+        sticky
+
+        */
