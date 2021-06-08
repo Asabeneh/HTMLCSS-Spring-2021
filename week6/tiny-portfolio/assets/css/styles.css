@@ -1,0 +1,65 @@
+
+        /* 
+        100% - whole
+        100vw - the whole width
+        10vw -> 10%
+
+        */
+
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        html, body {
+            overflow-x: hidden;
+        }
+        body {
+            width:100vw;
+            height: 100vh;
+            background-image: url('../images/hero_image.jfif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Raleway;
+        }
+        .container {
+            position: relative;
+            height: 100vh;
+        }
+        .box {
+            font-size: 25px;
+            /* border:1em solid rgba(161, 248, 161, 0.35); */
+            position: absolute;
+            width: 100%;
+            top:15%;
+            text-align: center;
+            height: 300px !important;
+            /* background-color: rgba(250, 128, 114, 0.35); */
+            padding:15px 0;
+        }
+        .skills {
+            margin:30px auto;
+        }
+        .skills li {
+            display: inline-block;
+            margin-right: 50px;
+            /* font-size:30px; */
+            text-transform: uppercase;
+            font-weight:600;
+        }
+        h2 {
+            margin:10px;
+            font-size:2.5rem;
+            color:rgb(121, 49, 238)
+        }
+        span {
+            font-size:3.5rem;
+            color:rgb(89, 238, 89);
+            background-color: rgba(255, 165, 0, 0.15);
+        }
+       
